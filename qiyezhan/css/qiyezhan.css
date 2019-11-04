@@ -1,0 +1,199 @@
+/*首页的css*/
+
+/* banner轮播图区域 */
+.banner{
+    width: 1519px;
+    height: 600px;
+  /*   background-color: deeppink; */
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+.banner #imgList{
+    width: 7595px;
+    position: absolute;
+    list-style: none;
+}
+.banner li{
+    float: left;
+}
+
+.banner li img{
+    width: 1519px;
+    height: 600px;
+}
+.banner .navDiv{
+    position: absolute;
+    bottom: 15px;
+    left: 650px;
+    
+}
+.banner .left{
+    width: 30px;
+    height:50px;
+    background-color:rgba(100,100,100,0.5);  
+    position: absolute;
+    left: 0px;
+    top: 280px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+   
+}
+.banner .right{
+    width: 30px;
+    height:50px;
+    background-color:rgba(100,100,100,0.5);  
+    position: absolute;
+    right: 0px;
+    top: 280px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.navDiv a{
+    float: left;
+    width: 15px;
+    height: 15px;   
+    margin: 0 10px;
+    border-radius: 20px;
+}
+/* 服务范围 */
+.service{
+    margin-top: 50px;
+}
+.content_service{
+    height: 250px;
+    background-color: #d9d9d9;
+   /*  margin-top: 50px; */
+}
+.content_service .service_title{
+    text-align: center;
+    /* background-color: rgba(255,255,255); */
+}
+.content_service .service_content li{
+    list-style: none;
+    float: left;
+    width: 300px; 
+    text-align: center;
+}
+.content_service .service_content li img{
+    width: 200px;
+    height: 200px;
+    background-color: #d9d9d9;
+}
+.content_service .service_content img:hover{
+    background-color: #8c8c8c;
+    cursor: pointer;
+}
+/* 成员介绍 */
+.content_member{
+    margin-top: 0;
+    /* height: 1600px; */
+  /*   background-color: chartreuse; */
+}
+.content_member .member_title{
+   /*  text-align: center; */
+    /* background-color: red; */
+}
+/*成员介绍主体*/
+.content_member .content_main{
+    height: 1568px;
+}
+
+.content_member .content_main img{
+    width: 600px;
+    height: 520px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+/*main1的简介*/
+.content_member .content_main .main_introduce1{
+    width: 600px;
+    height: 522px;
+    float: right;
+    position: relative;
+   box-sizing: border-box;
+   padding: 20px;
+  
+}
+
+.content_main .main_introduce1 span{
+    display: inline-block;
+    margin-top: 30px;
+}
+.main_introduce_footer{
+    box-sizing: border-box;
+   padding: 20px;
+    bottom: 10px;
+    position: absolute;
+}
+/*main1的简介结束*/
+/*main2的简介*/
+.content_member .content_main .main_introduce2{
+    width: 600px;
+    height: 522px;
+    float: left;
+    position: relative;
+   box-sizing: border-box;
+   padding: 20px;
+}
+
+.content_main .main_introduce2 span{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+/*main2的简介结束*/
+/*main3的简介*/
+.content_member .content_main .main_introduce3{
+    width: 600px;
+    height: 522px;
+    float: right;
+    position: relative;
+   box-sizing: border-box;
+   padding: 20px;
+}
+
+.content_main .main_introduce3 span{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+/*main3的简介结束*/
+/*新闻动态(从api获取)*/
+.content_new{
+    height: 350px;
+    /* background-color: darkorchid; */
+    clear: both;
+}
+
+/* .content_new .content_new_word h2{
+    text-align: center  ;
+} */
+ .content_new_image li{
+    float: left;
+    list-style: none;  
+    margin-left: 80px;
+    width: 200px;
+    height: 300px;
+}
+.content_new .content_new_image img{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+.content_new .content_new_image .new_title{
+    font-weight: bold;
+    text-align: center;
+}
+.content_new .content_new_image .new_content{
+    font-size: 12px;
+
+}
+
