@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 320px;
+    height: 480px;
+    background: url("../img/game_bg.jpg") no-repeat 0 0;
+    margin: 50px auto;
+    position: relative;
+}
+.container>h1{
+    color: white;
+    margin-left: 60px;
+
+}
+.container>.progress{
+    width: 180px;height: 16px;
+    background: url("../img/progress.png") no-repeat 0 0;
+    position:absolute;
+    top: 66px;
+    left: 63px;
+}
+.container>.start{
+    width: 150px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(#E55C3D,#C50000);
+    position: absolute;
+    line-height: 30px;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    left: 50%;
+    margin-left: -75px;
+    top: 320px;
+}
+.container>.rules{
+    background: #cccccc;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+}
+.container>.rule{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    display: none;/*默认不显示*/
+}
+.rule>p{
+    line-height: 50px;
+    color: white;
+}
+.rule>a{
+    color: red;
+}
+.container>.mask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 200px;
+    box-sizing: border-box;
+    text-align: center;
+    display: none;/*默认不显示*/
+}
+.mask>h1{
+    color: orangered;
+    text-shadow: 3px 3px 6px #fff;
+}
+.mask>.again{
+    width: 150px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(#74ACCF,#007DDC);
+    position: absolute;
+    line-height: 30px;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    left: 50%;
+    margin-left: -75px;
+    top: 320px;
+}
